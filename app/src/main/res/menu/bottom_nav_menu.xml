@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_shop"
+        android:icon="@drawable/vector_home"
+        android:title="Tienda" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/vector_search"
+        android:title="Buscar" />
+
+    <item
+        android:id="@+id/nav_despensa"
+        android:icon="@drawable/baseline_food_bank_24"
+        android:title="Despensa" />
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/vector_cart"
+        android:title="Carrito" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/vector_profile"
+        android:title="Cuenta" />
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shimmer_layout_homepage"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    app:cardElevation="0dp"
+    app:cardMaxElevation="0dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:elevation="0dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+        app:strokeWidth="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/product_homepage_image"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#ccc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/product_homepage_measuring_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="#ccc"
+                android:fontFamily="@font/gilroy_medium"
+                android:text="Price 1kg"
+                android:textColor="#ccc"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@+id/product_homepage_title"
+                app:layout_constraintTop_toBottomOf="@+id/product_homepage_title" />
+
+            <TextView
+                android:id="@+id/product_homepage_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ccc"
+                android:fontFamily="@font/poppinsregular"
+                android:text="49"
+                android:textColor="#ccc"
+                app:layout_constraintBottom_toBottomOf="@+id/product_homepage_add_btn"
+                app:layout_constraintStart_toStartOf="@+id/product_homepage_measuring_unit"
+                app:layout_constraintTop_toTopOf="@+id/product_homepage_add_btn" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/product_homepage_add_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="#ccc"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_homepage_measuring_unit">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#ccc" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/product_homepage_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="#ccc"
+                android:fontFamily="@font/gilroy_medium"
+                android:inputType="textMultiLine"
+                android:textColor="#000"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_homepage_image" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</com.facebook.shimmer.ShimmerFrameLayout>
+
+

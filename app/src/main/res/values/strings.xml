@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CookMart</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="backbtn">BACKBTN</string>
+    <string name="onlineTxt">Online</string>
+    <string name="efectivoActivo">Efectivo</string>
+    <string name="PAY_ON_DELIVERY">Pago a la entrega</string>
+    <string name="PAID_ONLINE">Pago Online</string>
+    <string name="enCamino">En camino</string>
+    <string name="entregado">Entregado</string>
+    <string name="all">Todos</string>
+    <string name="enviado">Enviado</string>
+    <string name="preparando">Preparando</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="fcm_post_url">https://fcm.googleapis.com/fcm/send</string>
+    <string name="NO_NOTIFICATION_TXT">No tiene ninguna notificación</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="search_store">Buscar tienda</string>
+</resources>
